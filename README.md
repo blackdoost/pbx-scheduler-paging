@@ -1,18 +1,13 @@
 # pbx-scheduler-paging
 
-شرح کوتاه: این مخزن مربوط به پیاده‌سازی یک سیستم زمان‌بندی و Paging برای PBX است.
+ماژول پیجینگ برای Issabel 5 (ابتدایی)
 
-شروع سریع
-1. کلون:
-   git clone git@github.com:blackdoost/pbx-scheduler-paging.git
-   cd pbx-scheduler-paging
+این مخزن اسکلتی اولیه را دارد برای:
+- ماژول PHP داخل Issabel برای مدیریت
+- سرویس Python برای تعامل با AMI و زمانبندی
+- تبدیل صوت با ffmpeg
 
-2. ساخت و اجرای پروژه:
-   (بسته به زبان/فریم‌ورک: مثال برای پایتون)
-   python -m venv venv
-   source venv/bin/activate
-   pip install -r requirements.txt
-   python app.py
-
-Contribution
-- از branchهای feature استفاده کنید و PR باز کنید به main.
+قدم‌های بعدی
+- کامل کردن API و ادغام با پایگاه داده
+- پیاده‌سازی امن AMI credentials و تست روی سرور
+- اضافه کردن packaging درست برای Issabel module
